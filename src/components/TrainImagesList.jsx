@@ -73,7 +73,7 @@ const TrainImagesList = memo(() => {
         />
       </Grid>
 
-      <GridList cellHeight={200} cols={3}>
+      <GridList cellHeight={"auto"} cols={3}>
         {csvData.map((row, idx) => {
           const imgName = row[0];
           const speedLimitShown = row[row.length - 1];

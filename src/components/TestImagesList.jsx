@@ -16,7 +16,7 @@ const TestImagesList = memo(() => {
   );
 
   return (
-    <GridList cellHeight={200} cols={3}>
+    <GridList cellHeight={"auto"} cols={3}>
       {allImgPaths.map((imgPath, idx) => {
         return (
           <GridListTile key={idx} cols={1} className={classes.tile}>
